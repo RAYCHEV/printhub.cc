@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing Excellence with Custom Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">PrintHub.cc</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="freetools.html"><i class="fas fa-tools"></i> Free Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery/index.html"><i class="fas fa-images"></i> Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <!-- Picture Column -->
+            <div class="col-md-4">
+                <img src="img/LogoPrintHubCC.jpg" alt="PrintHub.cc logo" class="img-fluid about-me-image">
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-8">
+                <h1>About</h1>
+                <p>About
+                    Welcome to PrintHub.CC - Your 3D Printing and Design Expert! At PrintHub.CC, I bring your ideas to life with top-notch 3D printing and design services. I help turn your concepts into reality, using advanced 3D printing technology to ensure high-quality, precise models. I offer tailored solutions for your unique needs, providing quick and efficient service at affordable prices.
+                </p>
+                <p>
+                    You can create your own model with the <a href="freetools.html">free tools</a> or I can make a 3D project from your sketches.
+                </p>
+                <p>
+                    Your satisfaction is my priority, and I strive to exceed your expectations with every project. Contact me today for a free consultation and start your 3D printing journey with PrintHub.CC!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h1>Contact</h1>
+        <form action="https://formspree.io/f/xjkvlpqg" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                <div class="invalid-feedback">
+                    Please enter your message.
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white mt-5 py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 PrintHub.cc - All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="validation.js"></script>
+</body>
+</html>
